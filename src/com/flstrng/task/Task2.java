@@ -10,10 +10,10 @@ package com.flstrng.task;
  */
 public class Task2 {
     public static void main(String[] args) {
-        int side1 = 1;
-        int side2 = 2;
+        int side1 = 3;
+        int side2 = 3;
         int side3 = 6;
-        if ((side1+side2) > side3 && (side2 + side3) > side1 && (side3 + side1) > side2 ) {
+        if (side1+side2 > side3 && side2 + side3 > side1 && side3 + side1 > side2 ) {
             System.out.println("Такой треугольник существует");
         } else {
             System.out.println("Такой треугольник не существует");
